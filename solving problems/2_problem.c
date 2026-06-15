@@ -1,3 +1,10 @@
+/* 2.
+Write a C program to calculate the volume of a cylinder:
+a.
+Using hard coded inputs.
+b.
+Using inputs supplied by the user.*/
+
 #include <stdio.h>
 int main(){
     int r, height;
@@ -8,7 +15,6 @@ int main(){
     scanf("%d", &r);
     printf("enter the height of cylinder:");
     scanf("%d", &height);
-    //printf("the area of the circle is: %f", 3.14*r*r);
     printf("the volume of cylinder is: %f", 3.14*r*r*height);
     return 0;
 }
