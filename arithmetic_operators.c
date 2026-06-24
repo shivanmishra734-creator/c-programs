@@ -6,7 +6,7 @@ int main() {
     int difference = a - b; // Subtraction
     int product = a * b; // Multiplication
     float quotient = (float)a / b; // Division
-    int remainder = a % b; // Modulus
+    int remainder = a % b; // (%) is the sign to calculate remainder,also known as modulus operator
 
     printf("Sum: %d\n", sum);
     printf("Difference: %d\n", difference);
