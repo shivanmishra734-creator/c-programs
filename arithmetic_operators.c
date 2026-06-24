@@ -13,6 +13,8 @@ int main() {
     printf("Product: %d\n", product);
     printf("Quotient: %.2f\n", quotient); // %.2f formats the float to 2 decimal places
     printf("Remainder: %d\n", remainder);
-
+/*int b = 2, c = 3; 
+int z; z = b*c; //legal 
+int z; b*c = z; //illegal (not allowed)*/
     return 0;
 }
