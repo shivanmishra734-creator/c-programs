@@ -5,14 +5,14 @@ Calculate the area of a circle
 
 #include <stdio.h>
 int main(){
-    int r, height;
+    float r, height;
     printf("enter the radius of circle:");
-    scanf("%d", &r);
+    scanf("%f", &r);
     printf("the area of the circle is: %f\n", 3.14*r*r);
     printf("enter the radius of cylinder:");
-    scanf("%d", &r);
+    scanf("%f", &r);
     printf("enter the height of cylinder:");
-    scanf("%d", &height);
+    scanf("%f", &height);
     printf("the volume of cylinder is: %f", 3.14*r*r*height);
     return 0;
 }
