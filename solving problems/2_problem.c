@@ -1,9 +1,7 @@
 /* 2.
-Write a C program to calculate the volume of a cylinder:
-a.
-Using hard coded inputs.
-b.
-Using inputs supplied by the user.*/
+Calculate the area of a circle
+ and modify the same program to calculate the volume of a cylinder
+  given its radius and height.*/
 
 #include <stdio.h>
 int main(){
